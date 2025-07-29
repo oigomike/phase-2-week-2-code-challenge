@@ -1,16 +1,26 @@
-{
-  "goals": [
-    {
-      "id": 1,
-      "title": "Buy a new laptop",
-      "targetAmount": 100000,
-      "currentAmount": 20000
-    },
-    {
-      "id": 2,
-      "title": "Emergency Fund",
-      "targetAmount": 50000,
-      "currentAmount": 10000
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Emergency Fund",
+    "target": 10000,
+    "saved": 3000
+  },
+  {
+    "id": 2,
+    "title": "Vacation in Mombasa",
+    "target": 5000,
+    "saved": 1200
+  },
+  {
+    "id": 3,
+    "title": "New Laptop",
+    "target": 70000,
+    "saved": 40000
+  },
+  {
+    "id": 4,
+    "title": "Motorbike",
+    "target": 150000,
+    "saved": 35000
+  }
+]
