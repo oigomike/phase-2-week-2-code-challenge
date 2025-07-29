@@ -1,15 +1,16 @@
 import React from "react";
 import GoalItem from "./GoalItem";
 
-function GoalList({ goals, onUpdateGoal, onDeleteGoal }) {
+function GoalList({ goals, updateGoal, deleteGoal }) {
   return (
     <div>
-      {goals.map((goal) => (
+      <h2>Your Goals</h2>
+      {goals.map(goal => (
         <GoalItem
           key={goal.id}
           goal={goal}
-          onUpdateGoal={onUpdateGoal}
-          onDeleteGoal={onDeleteGoal}
+          updateGoal={updateGoal}
+          deleteGoal={deleteGoal}
         />
       ))}
     </div>
